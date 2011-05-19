@@ -28,7 +28,10 @@ def main(argv=None):
 
 @contextmanager
 def pushd(dir):
-    '''A context manager (Python 2.5+ only) for stepping into a 
+    '''
+    # stolen from Paver
+    
+    A context manager (Python 2.5+ only) for stepping into a 
     directory and automatically coming back to the previous one. 
     The original directory is returned. Usage is like this::
     
