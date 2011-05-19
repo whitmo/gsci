@@ -15,6 +15,9 @@ setup(name='gsci',
       py_modules=['clonp'],
       include_package_data=True,
       zip_safe=True,
+      install_requires=['fabric',
+                        'path.py',
+                        ],
       entry_points="""
       [console_scripts]
       gsci=gsci:main
